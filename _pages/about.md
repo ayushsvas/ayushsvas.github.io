@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. "Once a person decides to be themselves, they can offer something that no one else can" - 50 Cent
+subtitle: <a href='#'></a>. "Once a person decides to be themselves, they can offer something that no one else can" - 50 Cent
 
 profile:
   align: right
