@@ -21,6 +21,9 @@ social: true # includes social icons at the bottom of the page
 ---
 
 <h2>About me</h2>
+
+(This website is not up-to-date)
+
 Hi! I am Ayush. Currently, I am a student at University of Göttingen (Georg-August-Universität Göttingen) pursuing masters in Theoretical Physics.
 
 I enjoy physics, mathematics and computer science. I am really fond of this whole research avenue of understanding machine learning using field theory. Personally, I wish to work on the problem of understanding black-box of deep learning architectures using field-theoretical methods.
@@ -31,6 +34,4 @@ Apart from being the benign neighbourhood nerd, I also like to play football and
 - Quantum field theory  
 - Machine learning 
 
-
-(This website is not up-to-date.)
 
