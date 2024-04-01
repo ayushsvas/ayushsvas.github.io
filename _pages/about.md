@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. "काक चेष्टा, बको ध्यानं, स्वान निद्रा तथैव च । अल्पहारी, गृहत्यागी, विद्यार्थी पंच लक्षणं ॥" 
+subtitle: <a href='#'>Affiliations</a>. "There's so much to learn" - 50 Cent
 
 profile:
   align: right
