@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'></a>. "Once a person decides to be themselves, they can offer something that no one else can" - 50 Cent
+subtitle: <a href='#'></a>"काक चेष्टा, बको ध्यानं, स्वान निद्रा तथैव च । अल्पहारी, गृहत्यागी, विद्यार्थी पंच लक्षणं ॥" - Chanakya 
 
 profile:
   align: right
