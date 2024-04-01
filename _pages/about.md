@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='#'></a>"काक चेष्टा, बको ध्यानं, स्वान निद्रा तथैव च । अल्पहारी, गृहत्यागी, विद्यार्थी पंच लक्षणं ॥" - Dad 
 
