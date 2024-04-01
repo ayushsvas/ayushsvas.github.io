@@ -1,7 +1,7 @@
 ---
 layout: page
 title: String-Local QFT
-description: Quantum fields localized along half-infinite strings
+description: Quantum Fields Localized along Half-Infinite Strings
 img:
 importance: 1
 category: work
