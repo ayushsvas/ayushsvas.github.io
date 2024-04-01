@@ -79,7 +79,7 @@ to estimate the groundstate wavefunction. Studied the world-lines of the particl
 
 
 <h3> Linear Algebra </h3>
-Implemented the Lanczos method to estimate the lowest eigenvalue of a real symmetric matrix. Plotted the CPU timescale as a function of matrix dimension n. 
+Implemented the Lanczos method to estimate the lowest eigenvalue of a real symmetric matrix. Plotted the CPU timescale as a function of matrix dimension n. [Missing Plot]
 
 <h3> Partial Differential Equations (PDEs) </h3>
 <h5> Modified diffusion equation - Initial value problem </h5>
