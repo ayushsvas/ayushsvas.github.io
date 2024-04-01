@@ -19,8 +19,17 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<h2>About me</h2>
+Hi! I am Ayush. Currently, I am a student at University of Göttingen (Georg-August-Universität Göttingen) pursuing masters in Theoretical Physics.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I enjoy physics, mathematics and computer science. I am really fond of this whole research avenue of understanding machine learning using field theory. Personally, I wish to work on the problem of understanding black-box of deep learning architectures using field-theoretical methods.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Apart from being the benign neighbourhood nerd, I also like to play football and computer games.  
+ 
+<h2>Research Interests</h2>
+- Quantum field theory  
+- Machine learning 
+
+
+(This website is still not complete)
+
