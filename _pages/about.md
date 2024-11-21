@@ -1,25 +1,37 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'></a>"काक चेष्टा, बको ध्यानं, स्वान निद्रा तथैव च । अल्पहारी, गृहत्यागी, विद्यार्थी पंच लक्षणं ॥" - Dad 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Institut für Theoretische Physik</p>
+    <p>Friedrich-Hund-Platz 1</p>
+    <p> 37077 Göttingen</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+
+news: false # includes a list of news items
+latest_posts: false # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<h2>About me</h2>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+(This website is not up-to-date)
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Hi! I am Ayush. Currently, I am a student at University of Göttingen (Georg-August-Universität Göttingen) pursuing masters in Theoretical Physics.
+
+I enjoy physics, mathematics and computer science. I am really fond of this whole research avenue of understanding machine learning using field theory. Personally, I wish to work on the problem of understanding black-box of deep learning architectures using field-theoretical methods.
+
+Apart from being the benign neighbourhood nerd, I also like to play football and computer games.  
+ 
+<h2>Research Interests</h2>
+- Quantum field theory  
+- Machine learning 
+
+
