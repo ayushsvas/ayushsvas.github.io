@@ -1,38 +1,81 @@
 ---
 layout: page
-title: String-Local QFT
-description: Quantum Fields Localized along Half-Infinite Strings
-img:
+title: project 1
+description: with background image
+img: assets/img/12.jpg
 importance: 1
 category: work
+related_publications: true
 ---
 
-Hilbert space positivity, covariant quantum fields, and locality - These three properties are the cornerstones of a quantum field theory. Sacrifices of a few of the above properties are to be made when dealing with spin$$\geq1$$ states associated to their respective p-loc quantum fields. With the canonical approach, one has to work on saving the Hilbert space positivity, while the Wigner representation makes us worry about causality and covariance of the associated p-loc quantum field.
+Every project has a beautiful feature showcase page.
+It's easy to include images in a flexible 3-column grid format.
+Make your photos 1/3, 2/3, or full width.
 
-String localized fields jumps in, thanks to the flexibility in the choice of coefficient functions when writing the quantum field in Wigner-Weinberg representation, and liberates us from all the woes of ensuring positivity, covariance and locality of quantum fields. These s-loc quantum fields exist directly on the Hilbert space, having their own well-defined notions of covariance and locality.
+To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
+    ---
+    layout: page
+    title: project
+    description: a project with a background image
+    img: /assets/img/12.jpg
+    ---
 
 <div class="row">
-    <div class="col">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-6">
-        {% include figure.html path="assets/img/string.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    This image can also have a caption. It's like magic.
+</div>
 
-Operating $$\partial_\kappa$$ on a p-loc field amounts to multiplying the intertwiners with $$\pm ik_\kappa$$. Now one can ask, what can be the inverse operation for this? The answer to this question brings us to the 'string-localization' (s-loc).\\ 
-Integrating the point local (p-loc) field along a "string" $$x+\mathbb{R}_{+} e$$ multiplies the intertwiner with $$\frac{-i}{(p e)_{\mp}}$$. e is some spacelike direction and normalized, $e^{2}=-1$. We denote by $I_{e}$, the operation of string integration:
+You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
+Say you wanted to write a bit about your project before you posted the rest of the images.
+You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-$$
-\left(I_{e} \Phi\right)(x) \equiv \int_{0}^{\infty} d s\; \Phi(x+s e)
-$$
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    You can also have artistically styled 2/3 + 1/3 images, like these.
+</div>
 
-One can see that $$(e \partial) I_{e} \Phi=-\Phi,$$ and hence, $$I_{e}$$ is minus the inverse of $$(e \partial)=e^{\kappa} \partial_{\kappa}$$.
-$$I_{e} \Phi$$ is a string-local field.
+The code is simple.
+Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
+To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
+Here's the code for the last row of images above:
 
-$$\begin{equation}
-\int_{0}^{\infty} d s e^{-i p(x\pm s e)}=\lim _{\varepsilon \searrow 0} \frac{-i}{(p e)\mp i \varepsilon} \cdot e^{-i p x} \equiv \frac{1}{i(p e)_{\mp}} \cdot e^{-i p x}
-\end{equation}$$
+{% raw %}
 
+```html
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+```
+
+{% endraw %}
