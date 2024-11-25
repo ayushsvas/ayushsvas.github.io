@@ -54,7 +54,7 @@ depicted below. Periodic boundary conditions are applied. Used Henkelman's dimer
         {% include figure.liquid path="assets/img/landscape.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col">
-        {% include figure.liquid path="assets/img/string.gif" title="example image" class="img-fluid rounded z-depth-1"%}
+        {% include figure.liquid path="assets/img/string_mep.gif" title="example image" class="img-fluid rounded z-depth-1"%}
     </div>
 </div>
 <h3> Quantum Monte-Carlo Simulation </h3>
