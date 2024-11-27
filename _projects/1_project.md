@@ -4,7 +4,7 @@ title: String-Local QFT
 description: Quantum Fields Localized along Half-Infinite Strings
 img:
 importance: 1
-category: work
+category: fun
 ---
 
 Hilbert space positivity, covariant quantum fields, and locality - These three properties are the cornerstones of a quantum field theory. Sacrifices of a few of the above properties are to be made when dealing with spin$$\geq1$$ states associated to their respective p-loc quantum fields. With the canonical approach, one has to work on saving the Hilbert space positivity, while the Wigner representation makes us worry about causality and covariance of the associated p-loc quantum field.
